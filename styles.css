@@ -3,10 +3,14 @@ html {
     color: antiquewhite;
 }
 
+#mainHeading {
+    color: red;
+}
+
 body {
     width: 100%;
     max-width: 1025px;
-    margin: 0 auto;
+    margin: 8px;
     background-color: black;
 
 }
@@ -17,7 +21,13 @@ header {
 
 }
 
-header h1, footer {
+header h1 {
+    text-align: center;
+    
+    
+} 
+
+footer {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: rgb(212, 207, 160);
@@ -103,5 +113,7 @@ p {
     width: 500px;
     height: 500px;
   }
-
+.funParagraph {
+    color: green;
+}
 /* Write your CSS here! */
